@@ -54,16 +54,16 @@ services:
             # SHARELATEX_LEFT_FOOTER: '[{"text": "Powered by <a href=\"https://www.sharelatex.com\">ShareLaTeX</a> 2016"},{"text": "Another page I want to link to can be found <a href=\"here\">here</a>"} ]'
             # SHARELATEX_RIGHT_FOOTER: '[{"text": "Hello I am on the Right"} ]'
 
-            # SHARELATEX_EMAIL_FROM_ADDRESS: "team@sharelatex.com"
+            SHARELATEX_EMAIL_FROM_ADDRESS: "xingyu_2018sz@163.com"
 
             # SHARELATEX_EMAIL_AWS_SES_ACCESS_KEY_ID:
             # SHARELATEX_EMAIL_AWS_SES_SECRET_KEY:
 
-            # SHARELATEX_EMAIL_SMTP_HOST: smtp.mydomain.com
-            # SHARELATEX_EMAIL_SMTP_PORT: 587
-            # SHARELATEX_EMAIL_SMTP_SECURE: false
-            # SHARELATEX_EMAIL_SMTP_USER:
-            # SHARELATEX_EMAIL_SMTP_PASS:
+            SHARELATEX_EMAIL_SMTP_HOST: smtp.163.com
+            SHARELATEX_EMAIL_SMTP_PORT: 465
+            SHARELATEX_EMAIL_SMTP_SECURE: true
+            SHARELATEX_EMAIL_SMTP_USER: xingyu_2018sz
+            SHARELATEX_EMAIL_SMTP_PASS: "${passwd}"
             # SHARELATEX_EMAIL_SMTP_TLS_REJECT_UNAUTH: true
             # SHARELATEX_EMAIL_SMTP_IGNORE_TLS: false
             # SHARELATEX_CUSTOM_EMAIL_FOOTER: "<div>This system is run by department x </div>"
