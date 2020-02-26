@@ -61,7 +61,7 @@ services:
 
             SHARELATEX_EMAIL_SMTP_HOST: smtp.163.com
             SHARELATEX_EMAIL_SMTP_PORT: 465
-            SHARELATEX_EMAIL_SMTP_SECURE: true
+            SHARELATEX_EMAIL_SMTP_SECURE: 1
             SHARELATEX_EMAIL_SMTP_USER: xingyu_2018sz
             SHARELATEX_EMAIL_SMTP_PASS: "${passwd}"
             # SHARELATEX_EMAIL_SMTP_TLS_REJECT_UNAUTH: true
