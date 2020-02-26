@@ -19,6 +19,7 @@ services:
             - redis
         volumes:
             - /home/dataset/sharelatex_data:/var/lib/sharelatex
+            - /usr/local/texlive:/usr/local/texlive
             ########################################################################
             ####  Server Pro: Un-comment the following line to mount the docker ####
             ####             socket, required for Sibling Containers to work    ####
@@ -46,10 +47,10 @@ services:
             ## Set for SSL via nginx-proxy
             #VIRTUAL_HOST: 103.112.212.22
 
-            # SHARELATEX_SITE_URL: http://sharelatex.mydomain.com
+            SHARELATEX_SITE_URL: http://10.8.4.170:8031
             # SHARELATEX_NAV_TITLE: Our ShareLaTeX Instance
             # SHARELATEX_HEADER_IMAGE_URL: http://somewhere.com/mylogo.png
-            # SHARELATEX_ADMIN_EMAIL: support@it.com
+            SHARELATEX_ADMIN_EMAIL: zhaof17@mails.tsinghua.edu.cn
 
             # SHARELATEX_LEFT_FOOTER: '[{"text": "Powered by <a href=\"https://www.sharelatex.com\">ShareLaTeX</a> 2016"},{"text": "Another page I want to link to can be found <a href=\"here\">here</a>"} ]'
             # SHARELATEX_RIGHT_FOOTER: '[{"text": "Hello I am on the Right"} ]'
@@ -66,7 +67,7 @@ services:
             SHARELATEX_EMAIL_SMTP_PASS: "${passwd}"
             # SHARELATEX_EMAIL_SMTP_TLS_REJECT_UNAUTH: true
             # SHARELATEX_EMAIL_SMTP_IGNORE_TLS: false
-            # SHARELATEX_CUSTOM_EMAIL_FOOTER: "<div>This system is run by department x </div>"
+            SHARELATEX_CUSTOM_EMAIL_FOOTER: "<div>This system is run by lab2c </div>"
 
             ################
             ## Server Pro ##
