@@ -48,7 +48,7 @@ services:
             ## Set for SSL via nginx-proxy
             #VIRTUAL_HOST: 103.112.212.22
 
-            SHARELATEX_SITE_URL: http://10.8.4.172:8031
+            SHARELATEX_SITE_URL: http://10.8.6.21:8031
             # SHARELATEX_NAV_TITLE: Our ShareLaTeX Instance
             # SHARELATEX_HEADER_IMAGE_URL: http://somewhere.com/mylogo.png
             SHARELATEX_ADMIN_EMAIL: 1272002241@qq.com

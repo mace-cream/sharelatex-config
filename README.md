@@ -1,5 +1,8 @@
 # Sharelatex on lab2c server cluster
 ## Instructions
+See http://10.8.6.22:88/yang/clusterhowto/blob/master/maintenance/docker.md for latest instructions.
+The following is out of date.
+
 How to start the sharelatex server from refresh?
 ```shell
 docker-compose up
